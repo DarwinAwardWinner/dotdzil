@@ -1,6 +1,4 @@
-use strict;
-use warnings;
-use v5.10;
+use Modern::Perl;
 use utf8;
 
 package {{$name}};
