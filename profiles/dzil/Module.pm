@@ -1,9 +1,12 @@
-use strict;
-use warnings;
-use utf8;
-
+## no critic
 package {{$name}};
+## use critic
 # ABSTRACT: [1-line description of module]
+use Moose;
+
+# Suggestions:
+# extends 'Dist::Zilla::Plugin::???';
+# with 'Dist::Zilla::Role::???';
 
 # [MODULE IMPLEMENTATION GOES HERE]
 
